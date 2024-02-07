@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./www.w3.org/2000/svg/tailwind.cofig.js"></script>
+    <script src="./tailwind.config.js"></script>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
+
+    <!-- fontawesome-->
+    <script src="https://kit.fontawesome.com/f97d09e350.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-['Manrope']">
+  <div class="w-11/12 m-auto">
+    <header>
+        <div class="navbar bg-base-100 p-0">
+            <div class="navbar-start pd-0">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden px-0 pr-3.5">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a><li>
+                    <li><a>Pages</a></li>
+                </ul>
+              </div>
+              <div>
+                <a class="btn btn-ghost text-xl inline font-extrabold text-2xl">Hockey<span class="text-[#ff4240]">'</span>s</a>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pagesss</a></li>
+                    <li><a>Blog</a><li>
+                    <li><a>Pages</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                </button>
+                <a class="btn bg-[#FF4240] text-[#FFFFFF] text-lg font-bold">Get Ticket</a>
+            </div>
+        </div>
+
+        <div class="carousel w-full relative">
+            <div class="carousel-inner flex">
+              <!-- Duplicate the last slide and place it at the beginning -->
+              
+              <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="object-cover object-center w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle">❮</a> 
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide2" class="carousel-item relative w-full ">
+                <img src="Images/hockey3.png" class="object-cover object-center w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a> 
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPjdnDadcciIl-AQGtjzi9KiJ9gIMjjSMFWCQQ-Ej10HoqgDQ-IKpRvqzbDxGde390Lvs&usqp=CAU" class="object-cover object-center w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a> 
+                  <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <!-- Duplicate the first slide and place it at the end -->
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://i0.wp.com/10ktakesmn.com/wp-content/uploads/2024/01/College-Hockey-Week-14.png" class="object-cover object-center w-full h-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a> 
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+        </div>
+          
+    </header>
+    <!-- Rounded Section -->
+
+
+    <main>
+        
+        <!-- Program Section -->
+
+        
+        <div class=" text-balance mb-40">
+            <div class="text-center w-2/3 mx-auto">
+                <h1 class="mb-6 text-3xl font-extrabold">Program Section</h1>
+                <p class="mb-20">Where possible, the Town will assist neighbourhood volunteer groups in their efforts to establish and maintain natural rinks at other park locations in the community. Interested individuals or groups are invited to contact the Director of Parks and Open Space at 905-873-2601 ext. 2274 for further information.</p> 
+            </div>
+            
+            <!-- Banner -->
+            <div class=" grid grid-cols-2 gap-6 max-md:flex max-md:flex-col text-[#FFFFFF]">
+                <div class="bg-[url('Images/2.png')] bg-no-repeat bg-cover bg-center row-span-1 h-96 rounded-2xl flex items-center">
+                    <div class="mx-10">
+                        <h1 class="font-extrabold text-xl mb-6">Junior Program</h1>
+                        <p>The Jr Warriors Middle School Hockey program is for players that attend Lincoln and Sudbury Middle Schools in Grades 6 through 8.</p>
+                        <button class="btn mt-8 bg-[#FF4240] text-[#FFFFFF]">Register Now!</button>
+                    </div>
+                </div>
+                <div class="bg-[url('Images/3.png')] bg-no-repeat bg-cover bg-center row-span-1 h-96 rounded-2xl flex items-center">
+                    <div class="mx-10">
+                        <h1 class="font-extrabold text-xl mb-6">Teanager Program</h1>
+                        <p>The program combines on-ice and dry-land training methods to get players to the next level and give them an edge for the upcoming tryouts for traveling teams.</p>
+                        <button class="btn bg-[#FF4240] mt-8 text-[#FFFFFF]">Register Now!</button>
+                    </div>
+                </div>
+                <div class="bg-[url('Images/4.png')] bg-no-repeat bg-cover bg-center col-span-2 row-span-3 h-[500px] rounded-2xl flex items-center">
+                    <div class="mx-10">
+                        <h1 class="font-extrabold text-xl mb-6">Professional Program</h1>
+                        <p>The Hill Academy Hockey Department is dedicated to enabling our student-athletes to reach their highest level of achievement. Whether the goal is to reach the post-secondary, national, international, or professional level, our staff is committed to developing a strong foundation, which will be the springboard for future success.</p>
+                        <button class="btn bg-[#FF4240] mt-8 text-[#FFFFFF]">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Clients Question -->
+        <div>
+            <div class="justify-center text-center mb-20 mx-auto">
+                <h1 class="text-4xl font-extrabold mb-6">Clients Question</h1>
+                <p class="mx-auto max-md:w-72">The purpose of an FAQ page is to provide quick answers to common questions that your business can anticipate. Companies should continuously expand this resource as they acquire more data.</p>
+            </div>
+
+            <div class="grid grid-cols-3  max-md:flex max-md:flex-col p-8 bg-[#1313181A] rounded-2xl">
+                <div class="col-span-1">
+                    <img  class= "h-full w-full" src="Images/11.png" alt="Question Image">
+                </div>
+
+                <div class="col-span-2 ">
+                    <div class="flex flex-col justify-center w-full">
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" checked="checked" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>hello</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>hello</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>hello</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" /> 
+                            <div class="collapse-title text-xl font-medium">
+                              Click to open this one and close others
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>hello</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" /> 
+                            <div class="collapse-title text-xl font-medium">
+                              Click to open this one and close others
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>hello</p>
+                            </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                            <input type="radio" name="my-accordion-4" /> 
+                            <div class="collapse-title text-xl font-medium">
+                              Click to open this one and close others
+                            </div>
+                            <div class="collapse-content"> 
+                              <p>hello</p>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <!--get in touch-->
+      
+        <div class="mt-24">
+          
+          <div class="mx-auto text-center py-4">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get In Touch</h2>
+            <p class="mt-2 gap-6 text-lg leading-8 text-gray-600">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+          </div>
+          <div class="mx-auto flex mt-6 max-md:flex-col max-md:items-center">
+            <div class="p-8 mb-6 rounded-2xl bg-[#1313181A] max-md:w-11/12">
+              <div class="bg-[#BCED6D1A] p-8">
+                <img src="Images/Group 1171275317.png" alt="phone">
+                <h5>Phone Number</h5>
+                <h2>(+62) 123-321-543</h2>
+              </div>
+              <div class="bg-[#FDDD5F1A] max-h-56 p-8 my-4 max-md:">
+                <img src="Images/Group 1171275318.png" alt="phone">
+                <h5>Email</h5>
+                <h2>hockeys@support.com</h2>
+              </div>
+              <div class="bg-[#629CF31A] max-h-56  p-8">
+                <img src="Images/Group 1171275321.png" alt="phone">
+                <h5>Location</h5>
+                <h2>152/1 Mohakhali Wireless Gate</h2>
+              </div>
+            </div>
+            <div class="w-11/12 mx-auto">
+              <div class="isolate lg:px-8">
+                
+                <form action="#" method="POST" class="mx-auto">
+                  <div class="grid gap-x-8 gap-y-6 grid-cols-2">
+                    <div>
+                      <label for="first-name" class="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+                      <div class="mt-2.5">
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                      </div>
+                    </div>
+                    <div>
+                      <label for="last-name" class="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+                      <div class="mt-2.5">
+                        <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                      </div>
+                    </div>
+                    <div>
+                      <label for="company" class="block text-sm font-semibold leading-6 text-gray-900">Subject</label>
+                      <div class="mt-2.5">
+                        <input type="text" name="company" id="company" autocomplete="organization" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                      </div>
+                    </div>
+                    <div>
+                      <label for="email" class="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                      <div class="mt-2.5">
+                        <input type="email" name="email" id="email" autocomplete="email" class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                      </div>
+                    </div>
+                    
+                    <div class="col-span-2">
+                      <label for="message" class="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+                      <div class="mt-2.5">
+                        <textarea name="message" id="message" rows="4" class="block w-full h-80 rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="mt-5">
+                    <button type="submit" class="block w-full rounded-md bg-[#FF4240] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="text-center py-4 bg-[#13131808] mt-12 mb-24 py-8 rounded-xl">
+            <h2 class="text-xl font-bold tracking-tight text-gray-900 mb-3">Social Media</h2>
+            <nav>
+              <div class="flex gap-4 justify-center">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+              </div>
+            </nav> 
+          </div>
+          
+        </div>
+      
+    </main>
+  </div>
+
+  
+  
+
+  <!--foooter-->
+
+  <footer class="bg-[#000000]">
+    <div class=" flex justify-between w-11/12 m-auto py-10 text-[#FFFFFF] max-md:grid max-md:grid-cols-9 max-md:gap-9 max-md:text-center">
+      <div class="max-md:col-start-1 max-md:col-span-9 flex flex-col max-md:items-center">
+        <h3 class="font-extrabold text-2xl">Get In Touch</h3>
+        <p class="max-w-72">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+        <div class="flex space-x-4 my-4">
+          <img class="w-5" src="Images/mail-open-svgrepo-com.svg" alt="mail">
+          <p>hockeysupport@gmail.com</p>
+        </div>
+        <div class="flex space-x-4">
+          <svg  class="w-5" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 202.592 202.592" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path style="fill:#FF3300;" d="M198.048,160.105l-31.286-31.29c-6.231-6.206-16.552-6.016-23.001,0.433l-15.761,15.761 c-0.995-0.551-2.026-1.124-3.11-1.732c-9.953-5.515-23.577-13.074-37.914-27.421C72.599,101.48,65.03,87.834,59.5,77.874 c-0.587-1.056-1.145-2.072-1.696-3.038l10.579-10.565l5.2-5.207c6.46-6.46,6.639-16.778,0.419-23.001L42.715,4.769 c-6.216-6.216-16.541-6.027-23.001,0.433l-8.818,8.868l0.243,0.24c-2.956,3.772-5.429,8.124-7.265,12.816 c-1.696,4.466-2.752,8.729-3.235,12.998c-4.13,34.25,11.52,65.55,53.994,108.028c58.711,58.707,106.027,54.273,108.067,54.055 c4.449-0.53,8.707-1.593,13.038-3.275c4.652-1.818,9.001-4.284,12.769-7.233l0.193,0.168l8.933-8.747 C204.079,176.661,204.265,166.343,198.048,160.105z M190.683,176.164l-3.937,3.93l-1.568,1.507 c-2.469,2.387-6.743,5.74-12.984,8.181c-3.543,1.364-7.036,2.24-10.59,2.663c-0.447,0.043-44.95,3.84-100.029-51.235 C14.743,94.38,7.238,67.395,10.384,41.259c0.394-3.464,1.263-6.95,2.652-10.593c2.462-6.277,5.812-10.547,8.181-13.02l5.443-5.497 c2.623-2.63,6.714-2.831,9.112-0.433l31.286,31.286c2.394,2.401,2.205,6.492-0.422,9.13L45.507,73.24l1.95,3.282 c1.084,1.829,2.23,3.879,3.454,6.106c5.812,10.482,13.764,24.83,29.121,40.173c15.317,15.325,29.644,23.27,40.094,29.067 c2.258,1.249,4.32,2.398,6.17,3.5l3.289,1.95l21.115-21.122c2.634-2.623,6.739-2.817,9.137-0.426l31.272,31.279 C193.5,169.446,193.31,173.537,190.683,176.164z"></path> </g> </g> </g></svg>
+          <p>(+62) 123-321-543</p>
+        </div>
+      </div> 
+      <div class="max-md:col-sart-5 max-md:col-span-4 max-md:row-start-2 flex flex-col">
+        <h6 class="footer-title">Services</h6> 
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div class="max-md:col-start-6 max-md:col-span-4 max-md:row-start-2 flex flex-col">
+        <h6 class="footer-title">Company</h6> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div class="max-md:col-start-1 max-md:col-span-9 max-md:row-start-3 flex flex-col">
+        <h6 class="footer-title">Legal</h6> 
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
